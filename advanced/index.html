@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Skill Safari | Rock, Paper, Scissors</title>
+
+<body>
+  <div class="header">
+    <img src="./images/logo.svg" alt="logo">
+    <div class="score">
+      <p>SCORE</p>
+      <div id="score" data-target="0">0</div>
+    </div>
+  </div>
+  <div class="rules">
+    <p>RULES</p>
+  </div>
+  <div class="wrap-options">
+    <div id="paper" class="option option-user option-paper">
+      <div class="hover-effect"></div>
+      <div class="option-image">
+        <img src="./images/icon-paper.svg" alt="paper">
+      </div>
+    </div>
+    <div id="scissors" class="option option-user option-scissors">
+      <div class="hover-effect"></div>
+      <div class="option-image">
+        <img src="./images/icon-scissors.svg" alt="scissors">
+      </div>
+    </div>
+    <div id="rock" class="option option-user option-rock">
+      <div class="hover-effect"></div>
+      <div class="option-image">
+        <img src="./images/icon-rock.svg" alt="rock">
+      </div>
+    </div>
+    <img src="./images/bg-triangle.svg" alt="triangle" id="triangle">
+    <div id="picked">
+      <p>YOU PICKED</p>
+      <p>THE HOUSE PICKED</p>
+    </div>
+    <div id="computer" class="option option-computer">
+      <div class="hover-effect"></div>
+      <div class="option-image">
+        <img src="" id="computerImage">
+      </div>
+    </div>
+    <div id="results-overlay">
+      <p id="you-win-loose" class="e "></p>
+      <p id="play-again" class="e ">PLAY AGAIN</p>
+    </div>
+    <div class="circle-win">
+    </div>
+    <div class="circle-win-child">
+    </div>
+    <div class="circle-win-child-child">
+    </div>
+  </div>
+  <div class="rules-overlay">
+    <div class="rules-title-button">
+      <p class="rules-font">RULES</p>
+      <div class="close-button-rules"></div>
+    </div>
+    <img src="./images/image-rules.svg" alt="close-button">
+  </div>
+  <div class="dark-overlay-rules"></div>
+  <script src="main.js"></script>
+</body>
+</html>
