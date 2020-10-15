@@ -1,0 +1,19 @@
+.container{
+    width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.box1{
+    background-image: url('./images/bg-pattern-desktop.svg');
+    width: 60%;
+    
+}
+.box2{
+    width: 40%;}
+.box3{
+    width: 80%;
+    padding-left:50px ;
+    
+}
